@@ -1,0 +1,407 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    android:background="@color/pink1"
+    android:elevation="3dp"
+    tools:context=".HomePageActivity">
+
+
+    <LinearLayout
+        android:id="@+id/linear1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:padding="10dp"
+        android:orientation="horizontal">
+
+
+
+
+        <ImageView
+            android:id="@+id/buttonProfile"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:padding="10dp"
+            app:srcCompat="@drawable/avatar"
+            />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:gravity="center"/>
+
+        <ImageView
+            android:id="@+id/buttonCompare"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:padding="10dp"
+            android:src="@drawable/search_icon"
+            android:background="@drawable/search_rect"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linear23"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="50dp"
+        android:background="@drawable/search_rect"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_below="@id/linear1">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:text="Filter"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="5dp"
+            android:layout_gravity="center"
+            android:src="@drawable/filter_icon"/>
+
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:id="@+id/linear2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/linear23"
+
+        android:layout_marginTop="10dp"
+
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <LinearLayout
+            android:id="@+id/linear3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="#330000"
+                android:layout_marginTop="0dp"
+               />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="1dp"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:text="Find your suitable hostel in Kampar"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+<!--            <LinearLayout-->
+<!--                android:id="@+id/linear4"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="50dp"-->
+<!--                android:layout_marginTop="1dp"-->
+<!--                android:background="@drawable/search_rect"-->
+<!--                android:orientation="horizontal"-->
+<!--                android:padding="10dp">-->
+
+<!--                <ImageView-->
+<!--                    android:layout_width="30dp"-->
+<!--                    android:layout_height="30dp"-->
+<!--                    android:layout_marginLeft="10dp"-->
+<!--                    android:src="@drawable/search_icon" />-->
+
+<!--                <EditText-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="30dp"-->
+<!--                    android:layout_marginLeft="5dp"-->
+<!--                    android:background="@null"-->
+<!--                    android:hint="search...." />-->
+<!--            </LinearLayout>-->
+
+
+
+
+            <LinearLayout
+                android:id="@+id/linear9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal"
+                android:padding="10dp">
+
+
+
+                    <LinearLayout
+                        android:id="@+id/ktBox"
+                        android:layout_width="160dp"
+                        android:layout_height="70dp"
+                        android:orientation="horizontal"
+                        android:background="@drawable/search_rect"
+
+                        android:layout_marginLeft="1dp">
+                        <TextView
+                            android:id="@+id/Text1"
+                            android:layout_width="85dp"
+                            android:layout_height="40dp"
+                            android:layout_marginLeft="5dp"
+                            android:layout_gravity="center"
+                            android:text="KT\nManagement"
+                            android:textSize="14sp"
+                            android:textStyle="bold"
+                            android:textAlignment="center"
+                            />
+                        <ImageView
+                            android:id="@+id/Image1"
+                            android:layout_width="60dp"
+                            android:layout_height="60dp"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="5dp"
+                            android:scaleType="fitXY" />
+<!--                            android:src="@drawable/ktlogo"-->
+
+
+                    </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/danishBox"
+                    android:layout_width="160dp"
+                    android:layout_height="70dp"
+                    android:orientation="horizontal"
+                    android:background="@drawable/search_rect"
+
+                    android:layout_marginLeft="20dp">
+                    <TextView
+                        android:id="@+id/Text2"
+                        android:layout_width="85dp"
+                        android:layout_height="40dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_gravity="center"
+                        android:text="Danish\nHouse"
+                        android:textSize="14sp"
+                        android:textStyle="bold"
+                        android:textAlignment="center"
+                        />
+                    <ImageView
+                        android:id="@+id/Image2"
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="5dp"
+                        android:scaleType="fitXY"/>
+<!--                        android:src="@drawable/danishlogo"-->
+                        />
+
+                </LinearLayout>
+
+
+                </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/linear14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal"
+                android:padding="10dp">
+
+
+
+                <LinearLayout
+                    android:id="@+id/villasBox"
+                    android:layout_width="160dp"
+                    android:layout_height="70dp"
+                    android:orientation="horizontal"
+                    android:background="@drawable/search_rect"
+
+                    android:layout_marginLeft="1dp">
+                    <TextView
+                        android:id="@+id/Text3"
+                        android:layout_width="85dp"
+                        android:layout_height="40dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_gravity="center"
+                        android:text="Villas \nCondo"
+                        android:textSize="14sp"
+                        android:textStyle="bold"
+                        android:textAlignment="center"
+                        />
+                    <ImageView
+                        android:id="@+id/Image3"
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="5dp"
+                        android:scaleType="fitXY"
+                        />
+<!--                        android:src="@drawable/villaslogo"-->
+                        />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="160dp"
+                    android:layout_height="70dp"
+                    android:orientation="horizontal"
+                    android:background="@drawable/search_rect"
+
+                    android:layout_marginLeft="20dp">
+                    <TextView
+                        android:id="@+id/Text4"
+                        android:layout_width="85dp"
+                        android:layout_height="40dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_gravity="center"
+                        android:text=""
+                        android:textSize="14sp"
+                        android:textStyle="bold"
+                        android:textAlignment="center"
+                        />
+                    <ImageView
+                        android:id="@+id/Image4"
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="5dp"
+                        />
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="#330000"
+                android:layout_marginTop="10dp"
+                android:layout_below="@+id/linear14"/>
+
+            <LinearLayout
+                android:id="@+id/linear5"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+
+                android:layout_marginTop="1dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:text="List of Hostel"
+                    android:textSize="30sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/moreButton"
+                    android:layout_width="70dp"
+                    android:layout_height="20dp"
+                    android:layout_marginLeft="100dp"
+                    android:text="See all"
+                    android:textAlignment="center"
+                    android:background="@drawable/search_rect"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linear20"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:padding="10dp">
+
+
+
+                    <LinearLayout
+                        android:layout_width="160dp"
+                        android:layout_height="250dp"
+                        android:orientation="vertical"
+                        android:background="@drawable/search_rect"
+                        >
+                        <ImageView
+                            android:id="@+id/Image5"
+                            android:layout_width="match_parent"
+                            android:layout_height="150dp"
+                            android:layout_gravity="center"
+                            android:scaleType="fitXY"
+                            />
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:background="#330000"
+                            android:layout_margin="0dp"/>
+                        <TextView
+                            android:id="@+id/TextAgent"
+                            android:layout_width="140dp"
+                            android:layout_height="22dp"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginBottom="4dp"
+                            android:text="Agent"
+                            android:textSize="16sp"
+                            android:textStyle="bold"
+                            />
+                        <TextView
+                            android:id="@+id/Text5"
+                            android:layout_width="140dp"
+                            android:layout_height="40dp"
+                            android:layout_marginLeft="10dp"
+                            android:text="Type"
+                            android:textSize="12sp"
+                            android:textStyle="bold"
+                            />
+                        <TextView
+                            android:id="@+id/Text6"
+                            android:layout_width="140dp"
+                            android:layout_height="22dp"
+                            android:layout_marginLeft="10dp"
+                            android:text="price"
+                            android:textSize="16sp"
+                            android:textStyle="bold"
+                            />
+                    </LinearLayout>
+
+
+
+            </LinearLayout>
+
+
+
+
+
+            </LinearLayout>
+
+</LinearLayout>
+
+</RelativeLayout>
+

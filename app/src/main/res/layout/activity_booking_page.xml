@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BookingPage">
+
+    <LinearLayout
+        android:id="@+id/linear1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:orientation="horizontal"
+        android:layout_alignParentTop="true"
+        >
+
+        <ImageView
+            android:id="@+id/buttonBack"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:padding="10dp"
+            android:layout_alignParentLeft="true"
+            android:src="@drawable/left_arrow"
+            android:background="@drawable/search_rect"
+            />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="Book your Date"
+            android:textSize="30dp"
+
+            android:textColor="@color/black"
+            android:gravity="center"/>
+
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/linear2"
+        android:layout_width="wrap_content"
+        android:layout_height="300dp"
+        android:layout_below="@id/linear1"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <CalendarView
+            android:id="@+id/calendarView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:background="@color/pink1"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/linear3"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_below="@id/linear2"
+        android:gravity="center">
+        <TextView
+            android:id="@+id/chooseHouse"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:text=""
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:background="@color/pink1"
+            android:textAlignment="center"/>
+
+        <Button
+            android:id="@+id/buttonUpload"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:text="Upload"
+            android:layout_marginLeft="5dp"
+            android:backgroundTint="#F27D7D"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linear4"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/linear3"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_marginLeft="100dp"
+        android:background="@color/pink1"
+        >
+
+
+        <TextView
+            android:id="@+id/chooseDate"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:text=""
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:textAlignment="center"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linear5"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_below="@id/linear4"
+        android:background="@color/pink1"
+
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="20dp"
+        android:gravity="center_horizontal">
+
+        <ListView
+            android:id="@+id/listView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"/>
+
+
+
+
+
+    </LinearLayout>
+
+</RelativeLayout>

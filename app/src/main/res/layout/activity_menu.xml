@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/pink1"
+    tools:context=".MenuActivity">
+
+
+    <LinearLayout
+        android:layout_width="411dp"
+        android:layout_height="399dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginStart="-4dp"
+        android:layout_marginTop="245dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginBottom="86dp"
+        android:background="#4D292828"
+        android:orientation="vertical"
+        android:padding="30dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Welcome!"
+            android:textAlignment="center"
+            android:textColor="@color/cardview_light_background"
+            android:textSize="36sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/Login"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_above="@+id/Register"
+            android:layout_marginTop="40dp"
+            android:drawablePadding="8dp"
+            android:padding="8dp"
+            android:text="Login"
+            android:textColor="@color/cardview_light_background"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/Register"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/Register"
+            android:layout_marginTop="40dp"
+            android:drawablePadding="8dp"
+            android:padding="8dp"
+            android:text="Register"
+            android:textColor="@color/cardview_light_background"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+    </RelativeLayout>

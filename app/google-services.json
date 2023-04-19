@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "924231579404",
+    "firebase_url": "https://hostelhunting-e7595-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "hostelhunting-e7595",
+    "storage_bucket": "hostelhunting-e7595.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:924231579404:android:b95dbbe7747875b4b97b29",
+        "android_client_info": {
+          "package_name": "com.example.hostel"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "924231579404-eceva6u0bdgd0krffdpstsp2en30hllg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBSZJqzHNVKtvLKR3RCMMR35IY7zemqaNQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "924231579404-eceva6u0bdgd0krffdpstsp2en30hllg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:924231579404:android:1993bc763114889ab97b29",
+        "android_client_info": {
+          "package_name": "com.example.hostelhunting"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "924231579404-eceva6u0bdgd0krffdpstsp2en30hllg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBSZJqzHNVKtvLKR3RCMMR35IY7zemqaNQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "924231579404-eceva6u0bdgd0krffdpstsp2en30hllg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
